@@ -1,8 +1,3 @@
-```
-**✨ Transform your imagination into reality with SENSE AI Image Generator!**
-Here's your `README.md` file, fully formatted in Markdown and ready to use with GitHub. I’ve included the collaborators at the end under a dedicated section.
-
----
 
 ```markdown
 # 🎨 SENSE - AI Image Generator
