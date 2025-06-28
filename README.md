@@ -1,5 +1,4 @@
 
-```markdown
 # 🎨 SENSE - AI Image Generator
 
 **A sophisticated Flutter application for AI-powered text-to-image generation with modern UI/UX design.**
