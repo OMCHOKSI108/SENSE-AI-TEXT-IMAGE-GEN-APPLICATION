@@ -18,11 +18,16 @@ class PromptBloc extends Bloc<PromptEvent, PromptState> {
     PromptEnteredEvent event,
     Emitter<PromptState> emit,
   ) async {
-    emit(PromptGeneratingImageLoadState());
-    Uint8List? bytes = await TextToImageService.generateImage(event.prompt);
-    if (bytes != null) {
-      emit(PromptGeneratingImageSuccessState(bytes));
-    } else {
+    try {
+      emit(PromptGeneratingImageLoadState());
+      Uint8List? bytes = await TextToImageService.generateImage(event.prompt);
+      if (bytes != null) {
+        emit(PromptGeneratingImageSuccessState(bytes));
+      } else {
+        emit(PromptGeneratingImageErrorState());
+      }
+    } catch (e) {
+      print('Error in promptEnteredEvent: $e');
       emit(PromptGeneratingImageErrorState());
     }
   }
