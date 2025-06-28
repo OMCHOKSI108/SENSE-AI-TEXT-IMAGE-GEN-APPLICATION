@@ -28,7 +28,6 @@ class MyApp extends StatelessWidget {
                 secondary: const Color(0xFF764ba2),
                 tertiary: const Color(0xFFf093fb),
                 surface: Colors.white,
-                background: const Color(0xFFF8F9FF),
               ),
           appBarTheme: const AppBarTheme(
             backgroundColor: Color(0xFF667eea),
@@ -41,7 +40,7 @@ class MyApp extends StatelessWidget {
               backgroundColor: const Color(0xFF667eea),
               foregroundColor: Colors.white,
               elevation: 4,
-              shadowColor: const Color(0xFF667eea).withOpacity(0.3),
+              shadowColor: const Color(0xFF667eea).withValues(alpha: 0.3),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(12),
               ),
@@ -49,7 +48,7 @@ class MyApp extends StatelessWidget {
           ),
           cardTheme: CardThemeData(
             elevation: 6,
-            shadowColor: const Color(0xFF667eea).withOpacity(0.2),
+            shadowColor: const Color(0xFF667eea).withValues(alpha: 0.2),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(16),
             ),
