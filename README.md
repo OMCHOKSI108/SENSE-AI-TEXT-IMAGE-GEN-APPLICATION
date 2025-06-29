@@ -44,7 +44,13 @@
 | **Picsum Photos** | Fallback | Dynamic placeholder images |
 | **Custom Generator** | Fallback | Synthetic image generation |
 
+
+
+
+## 🔧 Project Structure
+
 ```
+
 imagegenerator/
 ├── android/
 │   └── app/src/main/AndroidManifest.xml
@@ -65,37 +71,6 @@ imagegenerator/
 ├── pubspec.yaml
 └── README.md
 
-```
-
-
-## 🔧 Project Structure
-
-```
-
-imagegenerator/
-├── android/
-│   └── app/src/main/AndroidManifest.xml
-├── assets/
-│   └── logo.png
-├── lib/
-Primary: #667eea
-Secondary: #764ba2
-Tertiary: #f093fb
-Background: Black with radial gradients
-Text: White with gradient shaders
-Accent: Purple glows and shadows
-│   ├── splash\_screen.dart
-│   └── feature/prompt/
-│       ├── bloc/
-│       │   ├── prompt\_bloc.dart
-│       │   ├── prompt\_event.dart
-│       │   └── prompt\_state.dart
-│       ├── repos/
-│       │   └── prompt\_repo.dart
-│       └── ui/
-│           └── create\_prompt\_screen.dart
-├── pubspec.yaml
-└── README.md
 
 ````
 
