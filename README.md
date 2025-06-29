@@ -13,9 +13,9 @@
 
 
 <p align="center">
-  <img src="assets/001.jpg" width="325">&nbsp;&nbsp;&nbsp;
-  <img src="assets/002.jpg" width="325">&nbsp;&nbsp;&nbsp;
-  <img src="assets/003.jpg" width="325">
+  <img src="assets/001.jpg" width="300">&nbsp;&nbsp;&nbsp;
+  <img src="assets/002.jpg" width="300">&nbsp;&nbsp;&nbsp;
+  <img src="assets/003.jpg" width="300">
 </p>
 
 ## 📱 Project Overview
