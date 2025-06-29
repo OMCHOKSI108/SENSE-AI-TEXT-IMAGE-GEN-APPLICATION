@@ -9,6 +9,14 @@
 
 ---
 
+<p float="left">
+  <img src="assets/001.png" width="200"/>
+  <img src="assets/002.png" width="200"/>
+  <img src="assets/003.png" width="200"/>
+</p>
+
+
+
 ## 📱 Project Overview
 
 **SENSE** is an AI-powered image generation mobile app that transforms text prompts into stunning visual artwork using state-of-the-art AI models. The app features a modern, futuristic UI with glassmorphism effects, animated backgrounds, and intuitive user experience.
