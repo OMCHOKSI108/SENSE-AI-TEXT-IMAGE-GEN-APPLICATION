@@ -44,6 +44,7 @@
 | **Picsum Photos** | Fallback | Dynamic placeholder images |
 | **Custom Generator** | Fallback | Synthetic image generation |
 
+```
 imagegenerator/
 ├── android/
 │   └── app/src/main/AndroidManifest.xml
@@ -63,6 +64,9 @@ imagegenerator/
 │           └── create_prompt_screen.dart
 ├── pubspec.yaml
 └── README.md
+
+```
+
 
 ## 🔧 Project Structure
 
