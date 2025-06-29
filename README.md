@@ -10,9 +10,9 @@
 ---
 
 <p float="left">
-  <img src="assets/001.png" width="200"/>
-  <img src="assets/002.png" width="200"/>
-  <img src="assets/003.png" width="200"/>
+  <img src="assets/001.jpg" width="200"/>
+  <img src="assets/002.jpg" width="200"/>
+  <img src="assets/003.jpg" width="200"/>
 </p>
 
 
