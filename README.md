@@ -12,7 +12,7 @@
 <h2 align="center">🖼️ Sample Generated Images</h2>
 
 
-<p align="center">
+<p align="left">
   <img src="assets/001.jpg" width="300">&nbsp;&nbsp;&nbsp;
   <img src="assets/002.jpg" width="300">&nbsp;&nbsp;&nbsp;
   <img src="assets/003.jpg" width="300">
