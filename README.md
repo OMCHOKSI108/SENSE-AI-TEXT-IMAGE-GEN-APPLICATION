@@ -9,9 +9,11 @@
 
 ---
 
-<p float="left">
-  <img src="assets/001.jpg" width="200"/>
-  <img src="assets/002.jpg" width="200"/>
+<h2 align="center">🖼️ Sample Generated Images</h2>
+
+<p align="center">
+  <img src="assets/001.jpg" width="200" style="margin-right: 15px;"/>
+  <img src="assets/002.jpg" width="200" style="margin-right: 15px;"/>
   <img src="assets/003.jpg" width="200"/>
 </p>
 
