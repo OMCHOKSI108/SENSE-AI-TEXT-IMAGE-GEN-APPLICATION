@@ -127,14 +127,14 @@ PromptGeneratingImageErrorState()
 
 ---
 
-## 🌐 API Integration Strategy
-
-### Primary API: Together AI
+## 🌐 BACKEND RESPONSE API STRATEGY
 
 ```
-Endpoint: https://api.together.xyz/v1/images/generations
 Model: black-forest-labs/FLUX.1-schnell-Free
-Auth: API Key
+Model via Websites :
+                     1. Pollinations.ai
+                     2. Picsum Photos
+                     3. Synthetic Generator
 Response: Base64 image data
 ```
 
@@ -255,13 +255,4 @@ adb install build/app/outputs/flutter-apk/app-release.apk
 ```
 **✨ Transform your imagination into reality with SENSE AI Image Generator!**
 
-```
-
----
-
-Let me know if you’d like:
-- A `LICENSE` file (MIT or any specific one)
-- Help creating the actual GitHub repo or uploading this
-- A PDF version of the README  
-- Or converting it into a portfolio site!
 ```
